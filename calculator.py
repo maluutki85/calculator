@@ -21,13 +21,13 @@ if choice == '1':
     logging.info("Dodaję {} i {}".format(num1, num2))
     print("Wynik to:", add(num1,num2))      
 elif choice == '2':
-    logging.info("Dodaję {} i {}".format(num1, num2))
+    logging.info("Odejmuję {} i {}".format(num1, num2))
     print("Wynik to:", subtract(num1,num2))    
 elif choice == '3':
-    logging.info("Dodaję {} i {}".format(num1, num2))
+    logging.info("Mnożę {} i {}".format(num1, num2))
     print("Wynik to:", multiply(num1,num2))       
 elif choice == '4':
-    logging.info("Dodaję {} i {}".format(num1, num2))
-    print("Wynik to:", divide(num1,num2))       
+    logging.info("Dzielę {} i {}".format(num1, num2))
+    print("Wynik to:", divide(num1,num2))  
 else:    
     print("Podaj liczbę!")
