@@ -19,18 +19,15 @@ num2 = float(input ("Podaj składnik 2: "))
 if choice == '1':
     add_result = add(num1,num2)
     logging.info("Dodaję {} i {}".format(num1, num2))
-    print("Wynik to: {}".format(add_result))      
+    print("Wynik to:", add(num1,num2))      
 elif choice == '2':
-    sub_result = subtract(num1,num2)
     logging.info("Dodaję {} i {}".format(num1, num2))
-    print("Wynik to: {}".format(sub_result))    
+    print("Wynik to:", subtract(num1,num2))    
 elif choice == '3':
-    multi_result = multiply(num1,num2)
     logging.info("Dodaję {} i {}".format(num1, num2))
-    print("Wynik to: {}".format(multi_result))       
+    print("Wynik to:", multiply(num1,num2))       
 elif choice == '4':
-    div_result = divide(num1,num2)
     logging.info("Dodaję {} i {}".format(num1, num2))
-    print("Wynik to: {}".format(div_result))       
+    print("Wynik to:", divide(num1,num2))       
 else:    
     print("Podaj liczbę!")
