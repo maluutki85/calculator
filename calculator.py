@@ -1,6 +1,6 @@
 import logging
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(format='%(message)s', level=logging.INFO)
 
 def add(x, y):  
    return x + y   
